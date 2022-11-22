@@ -16,7 +16,7 @@ This project is for educational porpuses only. Pull request are welcome, but pri
 
 Site published at: https://github.com/PoPe-git/03-katukas
 
-Design: [Happy weekend](./design/design.png)
+Design: [Happy weekend](./img/full-project.png)
 
 ## 🎯 Project features/goals
 
