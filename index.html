@@ -21,7 +21,6 @@
             width: 800px;
             margin-top: 40px;
             margin-left: calc((100% - 800px) / 2);
-            background-color: yellow;
         }
 
         header>img {
@@ -31,18 +30,31 @@
 
         header>nav {
             float: right;
+            margin-top: 2.2px;
         }
 
         nav>a {
-            margin-left: 50px;
-            font-family: Tahoma;
+            display: inline-block;
+            padding: 5px;
+            padding-left: 15px;
+            padding-right: 15px;
+            margin-left: 5px;
+            font-family: monospace;
             font-size: 18px;
+            line-height: 100%;
+            /* line-height: 1em; */
             text-decoration: none;
             color: #3F4371;
+            border: 2px solid transparent;
+            border-radius: 6px;
         }
 
         nav>a:first-child {
             margin-left: 0;
+        }
+
+        nav>a:hover {
+            border-color: #3F4371;
         }
 
         main {
@@ -68,7 +80,7 @@
     <header style="font-family: Arial;">
         <img src="./img/broken-logo.png" alt="Logo">
         <nav style="font-family: monospace;">
-            <a href="#">Home</a>
+            <a style="border-color: #3F4371" href="#">Home</a>
             <a href="#">Project</a>
             <a href="#">About</a>
             <a href="#">Service</a>
